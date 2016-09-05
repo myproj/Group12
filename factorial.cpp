@@ -2,8 +2,8 @@
 
 int factorial(int n){
 	while(n<0){
-	printf("Re-enter n\n");
-		//std::cout<<"\nInvalid value of n. Please re-enter: ";
+	//printf("Re-enter n\n");
+		std::cout<<"\nInvalid value of n. Please re-enter: ";
 		std::cin>>n;
 	}
  //    if(n!=1){
